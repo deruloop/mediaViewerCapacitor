@@ -1,0 +1,24 @@
+{
+  "appId": "com.example.mediaplayer",
+  "appName": "MediaPlayer Example",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "plugins": {
+    "MediaPlayer": {
+      "options": {
+        "enableChromecast": true
+      }
+    }
+  },
+  "server": {
+    "cleartext": true
+  },
+  "cordova": {
+    "preferences": {
+      "ScrollEnabled": "false",
+      "BackupWebStorage": "none",
+      "DisallowOverscroll": "true",
+      "Orientation": "default"
+    }
+  }
+}
